@@ -23,6 +23,7 @@ The view is very simple. It shows:
 * Text with the date and time the view was loaded
 * A message describing the "status" of the user, either "You are logged in" or "You are logged out"
 * A submit button. The text of the button reflects how the "status" of the user will change.
+* A `var_dump` of the superglobal `$_SESSION` 
 
 If `session` is properly configured then each click of the button will toggle the "status" of the user.
 Both the message text and the button label should change on each button press.
